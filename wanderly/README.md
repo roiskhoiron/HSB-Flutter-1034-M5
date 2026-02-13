@@ -1,6 +1,7 @@
 # wanderly
 
-A new Flutter project.
+// 🚩 Saran: Dokumentasi README masih bawaan Flutter. Tambahkan screenshot 
+// aplikasi Wanderly-mu agar orang lain bisa melihat hasil karyamu! 📸✨
 
 ## Getting Started
 

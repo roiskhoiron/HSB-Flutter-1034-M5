@@ -51,6 +51,8 @@ class _TripFormSheetState extends State<TripFormSheet> {
     Navigator.pop(context);
   }
 
+  // 💎 Helper function untuk `InputDecoration` ini sangat cerdas! 
+  // Menghindari duplikasi kode dan menjaga konsistensi UI. Brilliant! 💡🎨
   InputDecoration inputDecoration({required String label, IconData? icon}) {
     return InputDecoration(
       labelText: label,

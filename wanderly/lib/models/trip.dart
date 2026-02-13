@@ -1,3 +1,5 @@
+// 💎 Model `Trip` yang ringkas tapi mencakup semua requirement inti Mission 5. 
+// Penggunaan `fromJson` dan `toJson` menunjukkan kesiapan untuk persistensi data! 🏗️✨
 class Trip {
   String title;
   String location;

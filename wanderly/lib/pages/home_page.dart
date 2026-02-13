@@ -15,6 +15,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   List<Trip> trips = [];
 
+  // 💎 Logic CRUD menggunakan `setState` ini adalah contoh sempurna untuk Mission 5! 
+  // Penggunaan `showModalBottomSheet` untuk form juga membuat UX terasa sangat smooth. 💯✨
   void showForm({Trip? trip, int? index}) {
     showModalBottomSheet(
       context: context,
@@ -40,6 +42,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  // 💎 Fungsi hapus data yang simpel dan efektif. Pembaruan state-nya tepat! 🗑️✅
   void deleteTrip(int index) {
     setState(() => trips.removeAt(index));
     showSnack('Trip deleted');

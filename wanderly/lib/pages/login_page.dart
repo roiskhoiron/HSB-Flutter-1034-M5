@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// 💎 `LoginPage` dengan desain kontainer terpusat dan bayangan lembut! 
+// Komposisi visualnya sangat profesional dan enak dilihat. Mantap! 🎨🏰
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -154,7 +156,8 @@ class _LoginPageState extends State<LoginPage> {
 
                 const SizedBox(height: 32),
 
-                /// Image Decoration
+                // 💎 Penggunaan `ClipRRect` untuk rounding gambar dekorasi ini 
+                // sangat polish. Detail visual kecil seperti ini bikin app berkelas! 🎨✨
                 ClipRRect(
                   borderRadius: BorderRadius.circular(16),
                   child: Image.network(
